@@ -1,0 +1,27 @@
+.container {
+  height: 400px;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4em;
+}
+
+.download-btn {
+  padding: 1em 2em;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1.5px solid #ccc;
+  border-radius: 4px;
+}
+.download-btn:hover {
+  border: 1.5px solid #202020;
+}
+
+#pdf {
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+}
