@@ -4,8 +4,8 @@ import { PDFExport } from '@progress/kendo-react-pdf';
 import './App.css';
 import Invoice from './Invoice';
 
-// NPM: https://www.npmjs.com/package/@progress/kendo-react-pdf
-// DOCS: https://www.telerik.com/kendo-react-ui/components/pdfprocessing/
+// NPM PKG: https://www.npmjs.com/package/@progress/kendo-react-pdf
+// DOCUMENTATION: https://www.telerik.com/kendo-react-ui/components/pdfprocessing/
 const App = () => {
   const ref = createRef();
 
